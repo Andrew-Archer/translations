@@ -18,31 +18,31 @@ Welcome to [=system.name] version [=systemVersion]"
 
 const ruClient = const <String, String> {
   mInternalError:
-    'Sorry, we encountered an unexpected error. '
-    "We will look into it, but "
-    'feel free to <a href="/feedback">contact us</a>. '
-    'Meanwhile, you may try <a href="javascript:reloadPage()">reloading this page</a>.',
-  mNetworkError: "Unable to reach Quire. Please check your internet connection.",
+    'К сожалению, произошла неожиданная ошибка. '
+    "Мы рассмотрим ее, однако, "
+    'не стесняйтесь <a href="/feedback">связаться с нами</a>. '
+    'Тем времнем, выможете попробовать <a href="javascript:reloadPage()">перезагрузить эту страницу</a>.',
+  mNetworkError: "Невозможно связаться с Quire. Пожалуйста проверьте ваше интернет соединение.",
   mNotAllowed:
-    "You do not have permission to perform this action.<br/>"
-    'Please contact your Admin.',
-  mNotFound: "Sorry, we cannot find what you are looking for.",
-  mTooLarge: "Sorry, your request is too large. Please try again with less content.",
-  mSessionTimeout: "Sorry, your session has timed out. Please try logging in again.",
-  mAddProjectWithoutOrg: "You cannot add project without adding an organization first.",
-  mNotAllowedAddRootTask: "You do not have permission to add root tasks.",
+    "У вас нет разрешения на выполнение этого действия.<br/>"
+    'Пожалуйста свяжитесь с вашим администраторм.',
+  mNotFound: "Простите, мы не можем найти ничего по выашему запросу.",
+  mTooLarge: "Простите, ваш запрос слиошком большой. Пожалуйста попробуйте еще раз, уменьшив размер содержимого.",
+  mSessionTimeout: "Простите, время сессии истекло. Пожалуйста попробуйти войти заново.",
+  mAddProjectWithoutOrg: "Вы не можете добавить проект прежде чем укажите организацию.",
+  mNotAllowedAddRootTask: "У вас не тразрешения на добавление корневой задачи.",
   mMaintenance:
-    "Sorry, we are down for maintenance. We will be back shortly. "
-    "Not to worry, your updates will be saved locally.",
-  mConnected: "Connection is back. Everything is in sync.",
-  mDisconnected: "Connection lost. Not to worry, your updates will be saved locally.",
+    "Проистите, мы недоступны из-за проведения профилактических работ. Скоро мы вернемся к вам. "
+    "Не стоит беспокоится все ваши изенения будут сохранены локально.",
+  mConnected: "Соединение восстановлено. Все синхронизировано.",
+  mDisconnected: "Соединение потеряно. Не стоит беспокоиться, все обновления будут сохранены локально.",
   mDisconnectedUnsafe:
-    'Connection lost. Please enable <a href="https://en.wikipedia.org/wiki/Web_storage#Web_Storage_Management" target="_blank">local storage</a> '
-    'to save your updates locally.',
+    'Соединение потерно. Пожалуйста включите <a href="https://en.wikipedia.org/wiki/Web_storage#Web_Storage_Management" target="_blank">локальное хранилище</a> '
+    ', чтобы сохранить все обновления локально.',
   mReloadNewPartJS:
-    'Sorry, we were unable to get the latest version of Quire.<br/><br/>'
+    'Простите, мы не можем получить последнюю версию Quire.<br/><br/>'
     '[=clearCache]<br/><br/>'
-    'For more details, please check out <a href="/guide/clear-cache" target="_blank">here</a>.',
+    'Чтобы получить больше деталей, пжалуйста смотрите <a href="/guide/clear-cache" target="_blank">здесь</a>.',
   mDeleteBrowserCacheChromeFirefoxEdge:
     'You can try to press <code>[=ctrlCommand]+Shift+DEL or [=ctrlCommand]+Shift+Backspace</code> '
     'to clear browser\'s cached images and files, and reload this page.',
