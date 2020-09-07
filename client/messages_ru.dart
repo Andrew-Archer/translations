@@ -44,14 +44,13 @@ const ruClient = const <String, String> {
     '[=clearCache]<br/><br/>'
     'Чтобы получить больше деталей, пжалуйста смотрите <a href="/guide/clear-cache" target="_blank">здесь</a>.',
   mDeleteBrowserCacheChromeFirefoxEdge:
-    'You can try to press <code>[=ctrlCommand]+Shift+DEL or [=ctrlCommand]+Shift+Backspace</code> '
-    'to clear browser\'s cached images and files, and reload this page.',
+    'Вы можете попробовать нажать <code>[=ctrlCommand]+Shift+DEL или [=ctrlCommand]+Shift+Backspace</code> '
+    ', чтобы удалить кешировнные изображения и файлы браузера и перезагрузить эту страницу.',
   mDeleteBrowserCacheSafari:
-    'You can try to press <code>Option+Command+E</code> to empty browser\'s cache, '
-    'and reload this page.',
+    'Вы можете попробовать нажать <code>Option+Command+E</code> , чтобы удалить кеш браузера и перезагрузить эту страницу.',
   mDeleteBrowserCacheEtc:
-    'You can try <a href="https://www.lifewire.com/how-to-clear-cache-2617980" target="_blank">clear browser\'s cached files</a>, '
-    'and reload this page.',
+    'Вы можете попробовать <a href="https://www.lifewire.com/how-to-clear-cache-2617980" target="_blank">очистить кешированные файлы браузера</a>, '
+    'и перезагрузить страницу.',
   mCtrl: "Ctrl",
   mShift: "Shift",
   mAlt: "Alt",
